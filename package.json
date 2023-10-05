@@ -1,0 +1,32 @@
+{
+  "name": "azure-app-config-manager",
+  "version": "1.0.0",
+  "description": "Wrapper for azure app configuration package to supply with higher level api with chaining pattern",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimkinv/azure-app-config-manager.git"
+  },
+  "author": "Danny Vernovsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dimkinv/azure-app-config-manager/issues"
+  },
+  "homepage": "https://github.com/dimkinv/azure-app-config-manager#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/lodash": "^4.14.199",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "@azure/app-configuration": "^1.4.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
